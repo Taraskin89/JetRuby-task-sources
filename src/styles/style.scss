@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.tile{
+  border: 1px black solid;
+  color: rgba(255,255,255,0);
+}
+.tile>span{
+  opacity: 0;
+}
+.size{
+  width: 30px;
+}
+
+#board{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
